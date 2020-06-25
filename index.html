@@ -15,41 +15,49 @@
   </style>
 </head>
 <body>
-  <div class="slider" id="slider">
-    <div class="slider__inner">
+  <div class="slider">
+    <div class="slider__inner" id="moving-part">
       <div class="slide">
-        <div class="slide__inner container wrapper ">
+        <div class="slide__inner container">
           <div class="slide__main">
-            <img class="slide__image" src="./images/image-tanya.jpg" alt="tanya image">
-            <div class="slide__controls">
-              <span class="slide__arrow slide__arrow--prev"></span>
-              <span class="slide__arrow slide__arrow--next"></span>
+            <div class="wrapper">
+              <img class="slide__image" src="./images/image-tanya.jpg" alt="tanya image">
+              <div class="slide__controls">
+                <span class="slide__arrow slide__arrow--prev" data-direction="prev"></span>
+                <span class="slide__arrow slide__arrow--next" data-direction="next"></span>
+              </div>
             </div>
           </div>
           <div class="slide__content">
-            <p class="testimonial__quote">“ I’ve been interested in coding for a while but never taken the jump, until now. 
-              I couldn’t recommend this course enough. I’m now in the job of my dreams and so 
-              excited about the future. ”</p>
-            <h4 class="testimonial__name">Tanya Sinclair</h4>
-            <small class="testimonial__role">UX Engineer</small>
+            <div class="wrapper">
+              <p class="testimonial__quote">“ I’ve been interested in coding for a while but never taken the jump, until now. 
+                I couldn’t recommend this course enough. I’m now in the job of my dreams and so 
+                excited about the future. ”</p>
+              <h4 class="testimonial__name">Tanya Sinclair</h4>
+              <small class="testimonial__role">UX Engineer</small>
+            </div>
           </div>
         </div>
       </div>
       <div class="slide">
-        <div class="slide__inner container wrapper ">
+        <div class="slide__inner container">
           <div class="slide__main">
-            <img class="slide__image" src="./images/image-john.jpg" alt="tanya image">
-            <div class="slide__controls">
-              <span class="slide__arrow slide__arrow--prev"></span>
-              <span class="slide__arrow slide__arrow--next"></span>
+            <div class="wrapper">
+              <img class="slide__image" src="./images/image-john.jpg" alt="tanya image">
+              <div class="slide__controls"prev>
+                <span class="slide__arrow slide__arrow--prev" data-direction="prev"></span>
+                <span class="slide__arrow slide__arrow--next" data-direction="next"></span>
+              </div>
             </div>
           </div>
           <div class="slide__content">
-            <p class="testimonial__quote">“ If you want to lay the best foundation possible I’d recommend taking this course. 
-              The depth the instructors go into is incredible. I now feel so confident about 
-              starting up as a professional developer. ”</p>
-            <h4 class="testimonial__name">John Tarkpor</h4>
-            <small class="testimonial__role">Junior Front-end Developer</small>
+            <div class="wrapper">
+              <p class="testimonial__quote">“ If you want to lay the best foundation possible I’d recommend taking this course. 
+                The depth the instructors go into is incredible. I now feel so confident about 
+                starting up as a professional developer. ”</p>
+              <h4 class="testimonial__name">John Tarkpor</h4>
+              <small class="testimonial__role">Junior Front-end Developer</small>
+            </div>
           </div>
         </div>
       </div>
