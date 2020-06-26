@@ -1,6 +1,7 @@
 let slideControls = document.querySelectorAll(".slide__arrow"),
 movingPart = document.getElementById("moving-part");
-slideControls.forEach(el => el.addEventListener("click", e => move(e)))
+
+slideControls.forEach(el => el.addEventListener("click", e => move(e)));
 
 const move = e => {
   let translateValue;
