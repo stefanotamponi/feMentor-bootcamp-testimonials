@@ -159,7 +159,6 @@ img {
   .slide__image {
     position: absolute;
     left: 50%;
-    max-width: 450px;
     top: 50%;
     transform: translate(-50%, -50%);
   }
@@ -219,6 +218,7 @@ img {
 
   .testimonial__name, .testimonial__role {
     float: left;
+    font-size: 1.5rem;
   }
 
   .testimonial__quote {
